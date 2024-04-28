@@ -1,9 +1,13 @@
 /********** Template CSS **********/
 :root {
     --primary: #88B44E;
-    --secondary: #FB9F38;
+    --secondary: ##956d41;
     --light: #F5F8F2;
     --dark: #252C30;
+}
+
+h1 {
+    color: #956d41
 }
 
 .back-to-top {
@@ -167,7 +171,7 @@
     bottom: 0;
     display: flex;
     align-items: center;
-    background: rgba(136, 180, 78, .7);
+    background: rgba(163, 206, 108, 0.7);
     z-index: 1;
 }
 
@@ -504,3 +508,14 @@
 .copyright a:hover {
     color: #FFFFFF !important;
 }
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+@media (max-width: 1400px) {
+    .footer-flex {
+      flex-direction: column;
+    }
+  }
